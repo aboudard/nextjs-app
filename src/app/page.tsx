@@ -1,6 +1,7 @@
 'use client';
 
 import React from "react";
+import Hello from "./hello";
 
 export default function Page() {
 
@@ -22,6 +23,7 @@ export default function Page() {
       <div>
         <p>You clicked {count} times</p>
       </div>
+      <Hello />
       </>
 
   );
